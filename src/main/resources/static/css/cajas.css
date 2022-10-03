@@ -7,7 +7,27 @@ body {
    font-family: sans-serif;
    padding: 120px 30px 0;
 }
-
+a{
+    background-color: darkseagreen;
+    color: white;
+    transition: 0.5s;
+    text-align:  right;
+}
+alt{
+    background-color: cadetblue;
+    transition: 0.5s;
+    text-align:  right;
+}
+aside{
+    background-color: darkseagreen;
+    color: white;
+    transition: 0.5s;
+    text-align:  right;
+    display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+   text-align:  right;
+}
 .header {
     background-color: darkseagreen;
     height: 100px;
@@ -43,6 +63,7 @@ body {
     margin: 0 10px;
     line-height: 90px;
     text-align:  right;
+    
 }
 
 .nav-menu-link {
@@ -52,7 +73,8 @@ body {
 }
 
 .nav-menu-link:hover {
-    background-color: #024070;
+    background-color: cadetblue;
     transition: 0.5s;
     text-align:  right;
+    
 }

@@ -9,8 +9,30 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
    <title>CINEMA VALERY</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link href="css/cajas.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>TODO write content</div>
+        <div>
+            <header class="header">
+                <h1 style="text-align:  center; color: white; ">CINEMA VALERY</h1>
+                   <a style="text-align: left" class="nav-menu-link nav-link" href="index.html">Volver Al inicio</a>
+                
+            </header>
+        <section>
+            <article>
+                <header><h3>Registro de cuenta ya existente</h3></header>
+                <h6>Ingrese los datos correspondientes</h6><br>
+                <form action="confirmacion.jsp" method="post"><!-- No ver datos en el link -->
+                    <label>Usuario  </label><!-- INGRESA NOMBRE --><br>
+                    <input type="text" name="nombre" placeholder="Usuario"  required><br><br><!-- Requerido -->
+                    
+                    <label>Contraseña </label><br><br>
+                     <input type="password" name="Contraseña"><!-- Hora --><br><br><!--CVC TARGETA -->
+                
+                     <input class="nav-menu-item" type="submit" name="enviar" value="Registrarse">
+                      <br>
+                   
+                </form>
+        </article>
     </body>
 </html>

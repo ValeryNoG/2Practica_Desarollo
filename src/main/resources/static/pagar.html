@@ -8,18 +8,24 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
          <title>CINEMA VALERY</title> 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <link href="css/cajas.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div>
+            <header class="header">
+                <h1 style="text-align:  center; color: white; ">CINEMA VALERY</h1>
+                   <a style="text-align: left" class="nav-menu-link nav-link" href="index.html">Volver Al inicio</a>
+                
+            </header>
         <section>
             <article>
                 <header><h3>Registro de informacion</h3></header>
-        
+                <h6>Ingrese los datos correspondientes</h6><br>
                 <form action="confirmacion.jsp" method="post"><!-- No ver datos en el link -->
                     <label>Nombre:  </label><!-- INGRESA NOMBRE --><br>
                     <input type="text" name="nombre" placeholder="Nombre completo"  required><br><br><!-- Requerido -->
                     
-                     <label>Correo: </label>
+                     <label>Correo: </label><br>
                      <input type="email" name="correo" placeholder="@"><br><!-- Correo --><br>
                      
                      <label>Nombre de Tarjeta: </label><!-- INGRESA NOMBRE --><br><br>
@@ -37,18 +43,19 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                       4:20<input type="radio" name="Hora" value="4:20"><br>
                       6:20<input type="radio" name="Hora" value="6:20"><br>
                       7:45<input type="radio" name="Hora" value="7:45"><!-- HORARIOS --><br>
-                     
+                     <input type="submit" name="enviar" value="Enviar">
                       <br>
-                      <a href="LISTA.html">
-      <input type="submit"/>
-    </a>
-                      
-                      
-                    
+                      <nav class="nav">
+                    <ul class="nav-menu">
+                         
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="LISTA.html">Listo</a></li>
+                    </ul>
+
+                </nav>
                 </form>
         </article>
             <br>
-          <footer>Drechos reservads &COPY;2022</footer>
+         
     </section>
         </div>
     </body>
